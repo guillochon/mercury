@@ -18,7 +18,7 @@ c
       real*8 HUGE
 c
       parameter (NMAX = 2000)
-      parameter (CMAX = 50)
+      parameter (CMAX = 2000)
       parameter (NMESS = 200)
       parameter (HUGE = 9.9d29)
       parameter (NFILES = 50)
@@ -31,6 +31,7 @@ c DR = conversion factor from degrees to radians
 c K2 = Gaussian gravitational constant squared
 c AU = astronomical unit in cm
 c MSUN = mass of the Sun in g
+c *** EDITED BY JFG TO MATCH MATHEMATICA ***
 c
       real*8 PI,TWOPI,PIBY2,DR,K2,AU,MSUN
 c
@@ -38,6 +39,6 @@ c
       parameter (TWOPI = PI * 2.d0)
       parameter (PIBY2 = PI * .5d0)
       parameter (DR = PI / 180.d0)
-      parameter (K2 = 2.959122082855911d-4)
-      parameter (AU = 1.4959787e13)
-      parameter (MSUN = 1.9891e33)
+      parameter (K2 = 2.959321734628008e-4)
+      parameter (AU = 1.49597871e13)
+      parameter (MSUN = 1.98855e33)
